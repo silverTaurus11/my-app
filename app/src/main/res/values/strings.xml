@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My App</string>
+    <string name="email">Email</string>
+    <string name="nama">Nama</string>
+    <string name="password">Password</string>
+    <string name="registrasi">Register</string>
+    <string name="data">Data</string>
+    <string name="profile">Profile</string>
+    <string name="info">Info</string>
+    <string name="hai">Hai,</string>
+    <string name="nama_field">Nama :</string>
+    <string name="email_field">Email :</string>
+    <string name="masuk">Masuk</string>
+    <string name="log_out">Keluar</string>
+</resources>
