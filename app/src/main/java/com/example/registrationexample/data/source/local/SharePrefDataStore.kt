@@ -34,7 +34,7 @@ class SharePrefDataStore(private val context: Context, private val gson: Gson) {
     fun getMyProfile(): LiveData<User?>{
         return object : SharedPreferenceLiveData<User?>(mainSharePref, MY_PROFILE_KEY, null){
             override fun getValueFromPreferences(key: String?, defValue: User?): User? {
-                val dataString = sharedPrefs.getString(MY_PROFILE_KEY, "")
+                val dataString = sharedPrefs.getString(key, "")
                 if(!dataString.isNullOrEmpty()){
                     return gson.fromJson(dataString, User::class.java).apply {
                         name = "Gayuh Nurul Huda"
